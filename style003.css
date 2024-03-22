@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Poppins:wght@300;400&display=swap');
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgb(248, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    background-color: #04558A;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    background-color: #f8c304;
+    padding: 80px 150px;
+    margin: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.part2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 1px solid #f8c304;
+    border-bottom: 1px solid #f8c304;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.chose {
+    margin: 10px 25px;
+    padding: 10px 30px;
+    max-width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; 
+}
+
+.text {
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+
+.img {
+    border: 1px solid;
+    border-radius: 30px;
+}
+
+.chose #img1:hover {
+    transition: 0.3s all;
+    transform: scale(1.1);
+}
+
+.chose #img2:hover {
+    transition: 0.3s all;
+    transform: scale(1.1);
+}
+
+.chose #img3:hover {
+    transition: 0.3s all;
+    transform: scale(1.1);
+}
+
+.start {
+    margin: 40px;
+}
+
+#txt1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.results {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#result {
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#pc {
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#user {
+    margin-bottom: 30px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: aliceblue;
+}
+
